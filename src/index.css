@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body {
   width: 80vw;
   margin: 2vw auto;
   font-family: 'Roboto', sans-serif;
-  text-align: center;
 }
