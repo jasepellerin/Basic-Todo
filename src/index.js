@@ -8,7 +8,7 @@ import './index.css';
 
 const App = () => (
   <MuiThemeProvider>
-    <TodoBar title="Todo List" />
+    <TodoBar title="Simple Todo List" />
   </MuiThemeProvider>
 );
 
