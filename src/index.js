@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import TodoBar from './components/TodoBar/TodoBar';
+import TodoBar from './components/TodoBar';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
