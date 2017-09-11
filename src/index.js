@@ -1,8 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import TodoBar from './TodoBar';
 import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const App = () => (
+  <MuiThemeProvider>
+    <TodoBar />
+  </MuiThemeProvider>
+);
+ 
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
 registerServiceWorker();
+
+export default App;
