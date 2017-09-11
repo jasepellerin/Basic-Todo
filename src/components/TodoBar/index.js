@@ -4,9 +4,6 @@ import FlatButton from 'material-ui/FlatButton';
 import './TodoBar.css';
 
 class TodoBar extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     const { title } = this.props

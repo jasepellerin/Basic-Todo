@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TodoBar from './components/TodoBar';
+import store from './reducers';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
@@ -16,5 +17,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 registerServiceWorker();
-
-export default App;
