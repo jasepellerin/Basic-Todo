@@ -7,10 +7,10 @@ import './index.css';
 
 const App = () => (
   <MuiThemeProvider>
-    <TodoBar />
+    <TodoBar title="Todo List" />
   </MuiThemeProvider>
 );
- 
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
